@@ -1,0 +1,158 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    font-size: 32px;
+    background: #FED7B0;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    cursor: pointer;
+    color: #fff;
+    transition: .5s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+nav ul li:hover{
+    background: #fff;
+    color: #000;
+}
+
+.hero-image{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, 0.5)), 
+    url(/Images/RedRock.PNG);
+    /* image size thing*/
+    background-position: center;
+    /* set image to screensize*/
+    height: 100vh;
+    height: calc(100vh - 56px);
+    background-size: cover;
+    /*flex junk*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text{
+    color: #fff;
+    text-align: center;
+    /**/
+}
+.hero-text h2{
+    font-size: 50px;
+}
+.hero-btn{
+    text-decoration: none;
+    color:#fff;
+    background: #000;
+    padding: 10px 30px;
+    margin-top: 10px;
+    /* I have to change anchor tag to inline block*/
+    display: inline-block;
+    /*width: 500px;*/
+    border-radius: 10px;
+    transition: .5s
+}
+.hero-btn:hover{
+    background: #fff;
+    color: #000;
+}
+@media screen and (max-width: 600px){
+    nav ul{
+        flex-direction: column;
+    }
+    .hero-image{
+        height: calc()
+    }
+    
+
+}
+.conent{
+    color:#789922;
+    background:#FED7B0;
+
+}
+.flex-container{
+    background-color: #FED7B0;
+    display: flex;
+    justify-content: space-around;
+
+}
+.box{
+    background-color: #FED7B0;
+    color: #fff;
+    width: 10%;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 75px;
+    
+}
+.a text{
+    color: #fff;
+}
+
+nav div div a:hover{
+    background: #fff;
+    color: #000;
+}
+nav div div a:hover{
+    padding: 10px 30px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    cursor: pointer;
+    color: #000;
+    transition: .5s;
+}
+.crung{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: #789922;
+}
+.crungbox{
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+table, th, td {
+    border: 10px solid #5a000f ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace
+  }
+.resume-btn:hover{
+    background: #fff;
+    color: #000;
+  }
+  .resume-btn{
+    text-decoration: none;
+    color:#fff;
+    background: #FED7B0;
+    padding: 10px 30px;
+    margin-top: 10px; 
+    display: inline-block;
+    border-radius: 10px;
+    transition: .5s
+  }
+  body {
+    font-family: 'Courier New', Courier, monospace
+  }
