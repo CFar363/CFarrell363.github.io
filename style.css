@@ -1,4 +1,4 @@
-/*css reset*/
+/*idk anymore*/
 *{
     margin: 0;
     padding: 0;
@@ -55,19 +55,19 @@ nav ul li:hover{
 .hero-text h2{
     font-size: 50px;
 }
-.hero-btn{
+.crung-btn{
     text-decoration: none;
     color:#fff;
     background: #000;
     padding: 10px 30px;
     margin-top: 10px;
-    /* I have to change anchor tag to inline block*/
+    /*crud i took from my old code*/
     display: inline-block;
-    /*width: 500px;*/
+    
     border-radius: 10px;
     transition: .5s
 }
-.hero-btn:hover{
+.crung-btn:hover{
     background: #fff;
     color: #000;
 }
@@ -106,19 +106,7 @@ nav ul li:hover{
     color: #fff;
 }
 
-nav div div a:hover{
-    background: #fff;
-    color: #000;
-}
-nav div div a:hover{
-    padding: 10px 30px;
-    text-align: center;
-    flex-grow: 1;
-    flex-shrink: 1;
-    cursor: pointer;
-    color: #000;
-    transition: .5s;
-}
+
 .crung{
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
@@ -132,27 +120,35 @@ nav div div a:hover{
 
 }
 table, th, td {
-    border: 10px solid #5a000f ;
+    border: 5px solid #5a000f ;
     align-items: center;
     justify-content: center;
     display: flex;
     background-position: center;
     font-family: 'Courier New', Courier, monospace
   }
-.resume-btn:hover{
-    background: #fff;
-    color: #000;
-  }
-  .resume-btn{
-    text-decoration: none;
-    color:#fff;
-    background: #FED7B0;
-    padding: 10px 30px;
-    margin-top: 10px; 
-    display: inline-block;
-    border-radius: 10px;
-    transition: .5s
-  }
+
   body {
     font-family: 'Courier New', Courier, monospace
   }
+
+  #footer
+  {
+      position:fixed;
+      bottom:0;
+  }
+
+nav div div a:hover{
+    background: #fff;
+    color: #000;
+}
+
+nav div div a:hover{
+    padding: 10px 30px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    cursor: pointer;
+    color: #000;
+    transition: .5s;
+}
